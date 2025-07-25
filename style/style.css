@@ -5,7 +5,7 @@
 }
 .body{
     max-width: 1440px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 nav{
@@ -156,6 +156,44 @@ nav ul li a{
     padding: 19px 80px;
     border-style: none;
 
+}
+
+/* flower plant section start */
+.flower-plants-area{
+    max-width: 1160px;
+    margin-top: 248px;
+    margin: 0 auto;
+}
+.flower-plant{
+    
+    display: flex;
+    gap: 50px;
+    margin: 1px solid black;
+    
+
+}
+.trusted-img{
+    width: 286px;
+    height: 286px;
+}
+.flower-text{
+    max-width: 510px;
+    max-height: 521px;
+    padding: 38px 0px;
+    letter-spacing: 30%;
+    border: 1px solid red;
+}
+.flower-title{
+    font-size: 3.1rem;
+    font-weight: bold;
+    color: #000000;
+}
+.flower-des{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #000000;
+    opacity: 50%;
+    padding-top: 20px;
 }
 
 /* meadia quari start */
