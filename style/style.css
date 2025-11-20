@@ -5,7 +5,7 @@
 }
 .body{
     max-width: 1440px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 nav{
@@ -16,7 +16,7 @@ nav{
     justify-content: space-between;
     margin: 0 auto;
     margin: 30px 150px 120px 150px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 nav ul{
     display: flex;
@@ -69,8 +69,10 @@ nav ul li a{
 .hero-text-color{
     color: #E95A08;
 }
+
 .hero-main-img{
     width: 100%;
+    margin-top: 50px;
  
 }
 .hero-des{
@@ -79,7 +81,7 @@ nav ul li a{
     font-weight:400 ;
     color:#000000 ;
     opacity: 43%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 /* our plants section start */
@@ -171,7 +173,7 @@ nav ul li a{
 .trusted-img{
     width: 286px;
     position: absolute;
-    top: 297%;
+    top: 297px;
     right: 50%;
 }
 
@@ -181,7 +183,7 @@ nav ul li a{
 .flower-text{
     max-width: 510px;
     padding: 38px 0px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .flower-title{
     font-size: 3.1rem;
@@ -302,9 +304,12 @@ nav ul li a{
 }
 
 /* colorful-bunch section start  */
+
+
+
 .colorful-bunch{
     max-width: 1440px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     /* display: flex; */
     justify-content: center;
@@ -319,8 +324,11 @@ nav ul li a{
     padding: 199px 0px 23px 0px;
 }
 .colorful-style{
-    padding: 15px 540px 15px 20px;
-    margin-bottom: 193px;
+     /* padding: 15px 540px 15px 20px; */
+    flex: 1;
+    padding: 12px;
+    border: none;
+    outline: none;
 
 }
 .colorful-btn{
@@ -328,14 +336,19 @@ nav ul li a{
     font-weight: 500;
     color: #FFFFFF;
     background-color: #E95A08;
-    padding: 14.5px 53.5px;
+    padding: 12px 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
    
 }
 .form-contain{
-    margin: 0 auto;
+    display: flex;
+    width: 450px;
     text-align: center;
-    align-items: center;
-    gap: 0;
+    margin: 0 auto;
+    padding-bottom: 193px;
 
 }
 /* footer section start */
@@ -343,7 +356,7 @@ nav ul li a{
     max-width: 1120px;
     display: flex;
     gap: 110px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     justify-content: space-between;
     margin-top: 50px;
@@ -372,7 +385,7 @@ nav ul li a{
     
 }
 .icon-item{
-    /* gap: 24px; */
+    
 }
 
 .footer .icon-item>img{
@@ -438,5 +451,10 @@ nav ul li a{
     }
     .bloom-plant, .ana-plant, .right-img img{
         height: auto;
+    }
+    .footer{
+        flex-direction: column;
+        padding-left: 20px;
+        gap: 0;
     }
 }
