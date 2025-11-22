@@ -5,7 +5,9 @@
 }
 .body{
     max-width: 1440px;
-    /* border: 1px solid red; */
+    margin: 0 auto;
+    border: 1px solid red;
+    
 }
 
 nav{
@@ -37,14 +39,14 @@ nav ul li a{
     font-size: 1rem;
     color: #252432;
 }
-.link-containar{
+.link-container{
     display: flex;
     
 }
 .nav-color{
     color: #8987A1;
 }
-.header-icon-containar{
+.header-icon-container{
     display: flex;
     margin-left: 48px;
     gap: 10px;
@@ -58,7 +60,6 @@ nav ul li a{
     max-width: 1140px;
     display: flex;
     margin: 0 auto;
-    border: 1px solid black;
 }
 .hero-title{
     font-size: 4rem;
@@ -88,9 +89,8 @@ nav ul li a{
 
 .our-plants{
     max-width: 1140px;
-    /* border: 1px solid red; */
     margin: 0 auto;
-    margin-top: 226px;
+    margin-top: 150px;
     margin-bottom: 248px;
 }
 .plants-text{
@@ -118,16 +118,15 @@ nav ul li a{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    width: 100%;
 }
 .card{
     max-width: 270px;
-    max-height: 485px;
     margin-bottom: 30px;
-    /* border: 1px solid red; */
-
 }
+
 .card-div-img{
-    width: 268px ;
+    width: 100% ;
     
 }
 .card-img{
@@ -151,44 +150,44 @@ nav ul li a{
     text-align: center;
     background-color: #E95A08;
     color: #FFFFFF;
-    padding: 19px 80px;
-    border-style: none;
+    padding: 19px 0px;
+    width: 100%;
+    border: none;
+    display: block;
 
 }
-
 /* flower plant section start */
-.flower-plants-area{
-    max-width: 1160px;
-    /* margin-top: 248px; */
+
+.flower-plant{
+    max-width: 1140px;
+    display: flex;
+    gap: 25px;
+    margin: 1px solid black;
     margin: 0 auto;
 }
-.flower-plant{
-    
-    display: flex;
-    gap: 50px;
-    margin: 1px solid black;
-    
 
-}
 .trusted-img{
     width: 286px;
-    position: absolute;
-    top: 297px;
-    right: 50%;
+    position: relative;
+    top: 50px;
+    left: 10px;
 }
 
-.flower-pic{
-   position: relative;
-}
+
 .flower-text{
     max-width: 510px;
     padding: 38px 0px;
+    padding-left: 20px;
+
     /* border: 1px solid red; */
 }
 .flower-title{
     font-size: 3.1rem;
     font-weight: bold;
     color: #000000;
+}
+.flower-title br{
+    display: inline;
 }
 .flower-des{
     font-size: 1.3rem;
@@ -198,11 +197,11 @@ nav ul li a{
     padding-top: 20px;
     text-align: center;
 }
-/* latest section start */
-.latest-deals{
-    
 
-}
+
+
+/* latest section start */
+
 .latest-title-area{
     max-width: 1440px;
     margin: 0 auto;
@@ -229,12 +228,17 @@ nav ul li a{
     border-radius: 10px;
     justify-content:center ;
     margin-bottom: 120px;
-    
 
 }
+
 .bloom-plant{
     position: relative;
     overflow: hidden;
+   
+
+}
+.bloom-plant img{
+    width: 100%;
     border-radius: 10px;
 
 }
@@ -251,7 +255,7 @@ nav ul li a{
     border-radius: 10px;
 }
 #right-img-title{
-    font-size: 3.1rem;
+    font-size: 2rem;
     font-weight: bold;
     color: white;
     text-align: center;
@@ -265,28 +269,33 @@ nav ul li a{
 }
 .overlay-right{
     position: absolute;
-    bottom: 150px;
-    left: 125px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     color: white;
-    padding: 8px 12px;
     border-radius: 5px;
     font-size: 1rem;
 
 }
 .overlay{
     position: absolute;
-    bottom: 65px;
-    left: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     color: white;
-    padding: 8px 12px;
     border-radius: 5px;
     font-size: 1rem;
-
-
 }
 .left-img{
     gap: 25px;
-    /* width: 100%; */
 }
 .overlay h3{
     text-align: center;
@@ -296,9 +305,7 @@ nav ul li a{
     text-align: center;
     padding-top: 19px;
 }
-.latest-container .right-img{
-    /* width: 50%; */
-}
+
 .none{
     display: none;
 }
@@ -306,15 +313,12 @@ nav ul li a{
 /* colorful-bunch section start  */
 
 
-
 .colorful-bunch{
     max-width: 1440px;
-    /* border: 1px solid red; */
     margin: 0 auto;
-    /* display: flex; */
     justify-content: center;
     align-items: center;
-     background-image: url(../assets/news-letter-bg.png);
+    background-image: url(../assets/news-letter-bg.png);
 }
 .colorful-title{
     font-size: 3.1rem;
@@ -332,11 +336,11 @@ nav ul li a{
 
 }
 .colorful-btn{
-    font-size: 1rem;
+    font-size: ;
     font-weight: 500;
     color: #FFFFFF;
     background-color: #E95A08;
-    padding: 12px 25px;
+    padding: 12px ;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -352,11 +356,12 @@ nav ul li a{
 
 }
 /* footer section start */
+
 .footer{
-    max-width: 1120px;
+    max-width: 1440px;
     display: flex;
-    gap: 110px;
-    /* border: 1px solid red; */
+    gap: 70px;
+    padding: 0 90px 25px 120px;
     margin: 0 auto;
     justify-content: space-between;
     margin-top: 50px;
@@ -368,9 +373,7 @@ nav ul li a{
     opacity: 50%;
     padding-top: 16px;
 }
-.footer ul{
-    
-}
+
 .footer ul li{
     list-style-type: none;
     padding-bottom: 32px;
@@ -380,12 +383,7 @@ nav ul li a{
     text-decoration: none;
     color: #6B7280;
     font-size: 1rem;
-    font-weight:400 ;
-    
-    
-}
-.icon-item{
-    
+    font-weight:400 ;   
 }
 
 .footer .icon-item>img{
@@ -393,32 +391,80 @@ nav ul li a{
 }
 
 
-/* meadia quari start */
+/* media screen start */
 
 @media screen and (max-width: 576px){
+   
+    /* nav-bar */
+
     nav ul li{
         display: none;
     }
+    .nav-img{
+        max-width: 65px;
+    }
     nav{
-        margin: 30px 0px 120px 0px ;
+        margin: 30px 20px 30px 20px ;
+        align-items: center;
+    }
+
+    /* hero-section */
+
+    .hero-text{
+        padding: 10px;
     }
     .hero{
      flex-direction: column-reverse;
-        height: ;
+    
     }
     .hero-main-img{
         width: 100%;  
     }
-    .hero-img{
-        
-    }
+    .hero-title{
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+    /* Our plants */
+
     .row{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        width: auto;
+        max-width: max-content;
+        gap: 3px;
     }
+    .our-plants{
+        padding: 10px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .plant-title{
+    font-size: 2rem;
+    font-weight: bold;
+
+    }
+    
+    .card{
+        padding-left: 3px;
+        padding-right: 3px; 
+    }
+
+    /* flower and  plants lover */
+
     .plant-des br{
         display: none;
+    }
+    .flower-plants-area {
+        padding: 10px;
+
+    }
+    .flower-title br {
+        display: none;
+    
+    }
+    .flower-title{
+    font-size: 2rem;
+    font-weight: bold;
     }
     .flower-plant{
         flex-direction: column;
@@ -430,9 +476,21 @@ nav ul li a{
         align-items: center;
         margin: 0 auto;
     }
+
     .trusted-img{
         display: none;
     }
+
+    /* latest deal */
+
+    .latest-deals{
+        padding: 10px;
+    }
+    .latest-title{
+    font-size: 2rem;
+    font-weight: bold;
+    }
+    
     .latest-deals, .latest-container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -446,15 +504,47 @@ nav ul li a{
     .latest-container img{
         width: 100%;
     }
+    #right-img-title{
+        font-size: 1.3rem;
+    }
+    .right-img-des{
+        font-size: 1.2rem;
+    }
+    
     .bloom-plant, .ana-plant, .right-img{
         height: auto;
     }
     .bloom-plant, .ana-plant, .right-img img{
         height: auto;
     }
+
+    /* colorful bunch */
+
+    .form-contain{
+        max-width:max-content;
+    }
+    .colorful-title{
+    font-size: 1rem;
+    font-weight: bold;
+    }
+    .colorful-bunch img{
+        object-fit: cover;
+    }
+
+    /* footer-section */
+
+
     .footer{
         flex-direction: column;
-        padding-left: 20px;
+        padding: 10px;
         gap: 0;
+        padding-bottom: 30px;
     }
+    .logo-des{
+        padding-bottom: 20px;
+    }
+    .footer .icon-item>img{
+    margin: 0 15px 0 0;
+    
+}
 }
