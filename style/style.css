@@ -1,3 +1,12 @@
+
+.open-sans-normal{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +15,6 @@
 .body{
     max-width: 1440px;
     margin: 0 auto;
-    border: 1px solid red;
     
 }
 
@@ -77,7 +85,7 @@ nav ul li a{
  
 }
 .hero-des{
-    font-size: 1.6rem;
+    font-size: 1rem;
     max-width: 570px;
     font-weight:400 ;
     color:#000000 ;
@@ -91,7 +99,7 @@ nav ul li a{
     max-width: 1140px;
     margin: 0 auto;
     margin-top: 150px;
-    margin-bottom: 248px;
+    margin-bottom: 170px;
 }
 .plants-text{
     max-width: 1140px;
@@ -106,7 +114,7 @@ nav ul li a{
 
 }
 .plant-des{
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 400;
     color: #000000;
     opacity: 50%;
@@ -192,7 +200,7 @@ nav ul li a{
 
 .flower-text{
     max-width: 510px;
-    padding: 38px 0px;
+    padding: 38px 10px;
     padding-left: 20px;
 
     /* border: 1px solid red; */
@@ -206,7 +214,7 @@ nav ul li a{
     display: inline;
 }
 .flower-des{
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 400;
     color: #000000;
     opacity: 50%;
@@ -230,7 +238,7 @@ nav ul li a{
 
 }
 .latest-des{
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 400;
     text-align: center;
     color: #000000;
@@ -254,8 +262,8 @@ nav ul li a{
 
 }
 .bloom-plant img{
-    width: 100%;
-    border-radius: 10px;
+    /* width: 100%; */
+    /* border-radius: 10px; */
 
 }
 .ana-plant{
@@ -352,7 +360,7 @@ nav ul li a{
 
 }
 .colorful-btn{
-    font-size: ;
+    font-size: small;
     font-weight: 500;
     color: #FFFFFF;
     background-color: #E95A08;
@@ -365,7 +373,7 @@ nav ul li a{
 }
 .form-contain{
     display: flex;
-    width: 450px;
+    max-width: 650px;
     text-align: center;
     margin: 0 auto;
     padding-bottom: 193px;
@@ -383,7 +391,7 @@ nav ul li a{
     margin-top: 50px;
 }
 .logo-des{
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 400;
     color: #000000;
     opacity: 50%;
